@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend React Developer portfolio showcasing skills, projects, and web development experience."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/professional-portfolio.png"
+    />
+    <title>Abdallah Elwasify | Portfolio</title>
+  </head>
+  <body>
+    <!-- Header + Navigation -->
+    <header>
+      <span>Abdallah Elwasify</span>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#courses">Courses</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <!-- Hero section -->
+      <section id="about">
+        <h1>Frontend React Developer</h1>
+        <p>
+          I build modern and responsive web applications using React, focusing
+          on clean code and great user experiences.
+        </p>
+        <img
+          src="./assets/photos/wasify.jpg"
+          alt="Portrait photo of Abdallah Elwasify"
+          width="300"
+          height="280"
+        />
+      </section>
+
+      <hr />
+
+      <!-- Skills  -->
+      <section id="skills">
+        <h2>Skills</h2>
+
+        <p>My core technical skills:</p>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Tailwind&nbsp;CSS</li>
+          <li>TypeScript</li>
+        </ul>
+
+        <p>My learning path so far, in order:</p>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Tailwind CSS</li>
+          <li>TypeScript</li>
+          <li>React</li>
+        </ol>
+
+        <p>
+          I enjoy <em>learning new technologies</em> and building
+          <strong>modern web experiences</strong> with <mark>React</mark>.
+        </p>
+      </section>
+
+      <hr />
+
+      <!-- Courses  -->
+      <section id="courses">
+        <h2>My Courses</h2>
+
+        <table border="1">
+          <caption>
+            My Courses
+          </caption>
+
+          <thead>
+            <tr>
+              <th>Course Name</th>
+              <th>Duration</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>HTML &amp; CSS</td>
+              <td>4 Weeks</td>
+              <td rowspan="2">Completed</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>6 Weeks</td>
+            </tr>
+            <tr>
+              <td>Tailwind CSS</td>
+              <td>1 Week</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>TypeScript</td>
+              <td>2 Weeks</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>8 Weeks</td>
+              <td>Currently Learning</td>
+            </tr>
+            <tr>
+              <td>Next.js</td>
+              <td>6 Weeks</td>
+              <td>Planned</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="3">Frontend Development Learning Path</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <hr />
+
+      <!-- Projects   -->
+      <section id="gallery">
+        <h2>My Projects</h2>
+
+        <figure>
+          <img
+            src="./assets/photos/loop.jpg"
+            alt="Screenshot of the Loop recycling project interface"
+            width="500"
+          />
+          <figcaption>Loop - Recycling Project</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="./assets/photos/skillswap.jpg"
+            alt="Screenshot of the Skill Swap application interface"
+            width="500"
+          />
+          <figcaption>Skill Swap - Programming Skills Exchange</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="./assets/photos/codeacademy.jpg"
+            alt="Screenshot of the Code Academy learning platform interface"
+            width="500"
+          />
+          <figcaption>Code Academy - Programming Learning Platform</figcaption>
+        </figure>
+      </section>
+
+      <hr />
+
+      <!-- Contact form  -->
+      <section id="contact">
+        <h2>Contact Form</h2>
+
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <br /><br />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <br /><br />
+
+          <label for="phone">Phone:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+
+          <br /><br />
+
+          <label for="birthdate">Date of Birth:</label>
+          <input type="date" id="birthdate" name="birthdate" required />
+
+          <br /><br />
+
+          <label for="message">Message:</label>
+          <br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write your message"
+          ></textarea>
+
+          <br /><br />
+
+          <label for="subject">Subject:</label>
+          <select id="subject" name="subject">
+            <option value="project">Project</option>
+            <option value="job">Job Opportunity</option>
+            <option value="question">Question</option>
+            <option value="other">Other</option>
+          </select>
+
+          <br /><br />
+
+          <p>Preferred Contact Method:</p>
+
+          <input
+            type="radio"
+            id="contact-email"
+            name="contact-method"
+            value="email"
+          />
+          <label for="contact-email">Email</label>
+
+          <input
+            type="radio"
+            id="contact-phone"
+            name="contact-method"
+            value="phone"
+          />
+          <label for="contact-phone">Phone</label>
+
+          <br /><br />
+
+          <input type="checkbox" id="terms" name="terms" required />
+          <label for="terms">I agree to the terms and conditions</label>
+
+          <br /><br />
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+
+      <hr />
+
+      <!-- FAQ  -->
+      <section id="faq">
+        <h2>FAQ</h2>
+
+        <details>
+          <summary>What services do you provide?</summary>
+          <p>I provide web development and programming services.</p>
+        </details>
+
+        <details>
+          <summary>How can I contact you?</summary>
+          <p>You can contact me by email or phone.</p>
+        </details>
+
+        <details>
+          <summary>Are you available for new projects?</summary>
+          <p>Yes, I am available for new projects.</p>
+        </details>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- Footer  -->
+    <footer>
+      <address>
+        Email:
+        <a href="mailto:abdallahelwasify0@gmail.com"
+          >abdallahelwasify0@gmail.com</a
+        >
+        <br />
+        Location:&nbsp;Cairo, Egypt
+      </address>
+
+      <p>&copy; 2026 Abdallah Elwasify. All rights reserved.</p>
+
+      <p>
+        <a href="https://github.com/Elwasify" target="_blank">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/abdallah-elwasify-7b604a379"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
