@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Day5 task</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#">Main</a>
+      <a href="#">Make an Order</a>
+      <a href="#">Contact Us</a>
+    </nav>
+
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+
+    <p class="intro">
+      Our 12" wood-fired pizza are available for delivery, build your custom
+      pizza and we'll deliver it within an hour.
+    </p>
+
+    <form action="">
+      <fieldset>
+        <legend></legend>
+
+        <p class="section-label">Your Information</p>
+        <div class="info-box">
+          <p>
+            <label for="name">Name</label
+            ><input type="text" id="name" name="name" />
+          </p>
+          <p>
+            <label for="address">Address :</label
+            ><input type="text" id="address" name="address" />
+          </p>
+          <p>
+            <label for="phone">Telephone Number :</label
+            ><input type="text" id="phone" name="phone" />
+          </p>
+          <p>
+            <label for="email">Email :</label
+            ><input type="text" id="email" name="email" />
+          </p>
+          <p><label for="instructions">Delivery Instruction :</label></p>
+          <textarea
+            id="instructions"
+            name="instructions"
+            placeholder="No more than 400 character long"
+          ></textarea>
+        </div>
+      </fieldset>
+
+      <h2 class="dream-pizza">Design Your Dream Pizza:</h2>
+
+      <p class="section-label">Pizza specs</p>
+      <div class="pizza-specs-box">
+        <fieldset>
+          <legend>Crust (Choose one):</legend>
+          <label><input type="radio" name="crust" /> Classic White</label><br />
+          <label><input type="radio" name="crust" /> Multigrain</label><br />
+          <label><input type="radio" name="crust" /> Choose-stuffed crust</label
+          ><br />
+          <label><input type="radio" name="crust" /> Gluten-free</label>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Toppings (Choose as many as you want):</legend>
+          <label><input type="checkbox" name="toppings" /> Red Sauce</label
+          ><br />
+          <label><input type="checkbox" name="toppings" /> White Sauce</label
+          ><br />
+          <label
+            ><input type="checkbox" name="toppings" /> Mozzarella Cheese</label
+          ><br />
+          <label><input type="checkbox" name="toppings" /> Pepperoni</label
+          ><br />
+          <label><input type="checkbox" name="toppings" /> Mushrooms</label
+          ><br />
+          <label><input type="checkbox" name="toppings" /> Peppers</label><br />
+          <label><input type="checkbox" name="toppings" /> Anchovies</label>
+        </fieldset>
+        <br />
+        <fieldset id="number-field">
+          <legend>Number</legend>
+          <label for="count">How many pizzas:</label>
+          <input type="text" id="count" name="count" />
+        </fieldset>
+      </div>
+
+      <div class="buttons">
+        <input type="submit" value="Bring me a pizza!" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+  </body>
+</html>
