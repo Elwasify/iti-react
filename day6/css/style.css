@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #6c4900;
-    --secondary-color: #896d33;
-    --accent-color: #a79266;
-    --light-color: #c4b699;
-    --background-color: #e2dbcc;
+    --primary-color: #2e3bf5;
+    --secondary-color: #5662f6;
+    --accent-color: #7b84f8;
+    --light-color: #bfc3fb;
+    --background-color: #eef0ff;
     --white-color: #ffffff;
-    --border-color: #c4b699;
-    --text-color: #332b20;
+    --border-color: #bfc3fb;
+    --text-color: #20244d;
 }
 
 * {
@@ -144,7 +144,7 @@ section h2 {
     width: fit-content;
     padding: 10px;
     margin: 10px;
-    cursor: pointer;
+    cursor: grab;
 }
 
 .skill-item:hover {
@@ -232,7 +232,7 @@ section h2 {
 .reset-button {
     background-color: var(--light-color);
     color: var(--text-color);
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 .site-footer {
