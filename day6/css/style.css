@@ -90,6 +90,7 @@ body {
     color: var(--primary-color);
 }
 
+
 .job-title {
     color: var(--secondary-color);
     font-size: 1.1em;
@@ -111,6 +112,7 @@ body {
     cursor: pointer;
 }
 
+
 .contact-button:hover {
     background-color: var(--secondary-color);
 }
@@ -124,6 +126,9 @@ body {
     padding: 30px;
     border: 1px solid var(--border-color);
 }
+#contact .section-title {
+        color: var(--primary-color);
+}
 
 section h2 {
     font-size: 1.8rem;
@@ -133,6 +138,10 @@ section h2 {
     color: var(--text-color);
     font-size: 18px;
 }
+#skills .section-title {
+        color: var(--primary-color);
+}
+
 
 .skills-list {
     width: 100%;
