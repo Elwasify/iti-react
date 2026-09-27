@@ -383,6 +383,7 @@ ul {
 }
 
 @media (max-width: 900px) {
+
     .who-we-are-inner,
     .location-inner,
     .contact-inner {
@@ -396,7 +397,9 @@ ul {
     .hero h1 {
         font-size: 42px;
     }
-}* {
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -781,6 +784,7 @@ ul {
 }
 
 @media (max-width: 900px) {
+
     .who-we-are-inner,
     .location-inner,
     .contact-inner {
@@ -793,5 +797,104 @@ ul {
 
     .hero h1 {
         font-size: 42px;
+    }
+}
+
+.site-footer {
+    background: #19120e;
+    color: #cfc7bd;
+    padding: 70px 0 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-about {
+    flex: 1.4;
+}
+
+.footer-logo {
+    height: 34px;
+    width: auto;
+    margin-bottom: 18px;
+}
+
+.footer-about p {
+    font-size: 14px;
+    color: #a89f93;
+    max-width: 320px;
+}
+
+.footer-links,
+.footer-social {
+    flex: 1;
+}
+
+.footer-links h4,
+.footer-social h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-links ul li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #a89f93;
+    transition: color 0.25s ease;
+}
+
+.footer-links a:hover {
+    color: #c9a97c;
+}
+
+.social-icons {
+    display: flex;
+    gap: 14px;
+}
+
+.social-icons a {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #3a332c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cfc7bd;
+    font-size: 17px;
+    transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.social-icons a:hover {
+    background: #8a765b;
+    border-color: #8a765b;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 22px 0;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    color: #7d766c;
+}
+
+@media (max-width: 900px) {
+    .footer-inner {
+        flex-direction: column;
+        gap: 40px;
     }
 }
