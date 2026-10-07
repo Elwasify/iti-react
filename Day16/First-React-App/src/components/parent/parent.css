@@ -1,0 +1,14 @@
+.parent-container {
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.parent-title {
+  margin: 0 0 24px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #198754;
+  color: #fff;
+  text-align: center;
+}

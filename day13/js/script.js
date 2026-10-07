@@ -1,24 +1,13 @@
-const nameInput = document.querySelector("#name");
-const ageInput = document.querySelector("#age");
-const jobInput = document.querySelector("#job");
-const submitBtn = document.querySelector("#submitBtn");
+const itemListContainer = document.querySelector(".item-list");
 
-submitBtn.addEventListener("click", function () {
-  const name = nameInput.value.trim();
-  const age = ageInput.value.trim();
-  const job = jobInput.value.trim();
+const newItem = document.createElement("div");
 
-  if (name === "" || age === "" || job === "") {
-    alert("Please fill all fields");
-  } else {
-    console.log(`Name:  ${name}`);
-    console.log(`Age: ${age}`);
-    console.log(`Job: ${job}`);
+newItem.className = "item";
+newItem.id = "jsAddedItem";
+newItem.style.color = "red";
 
-    if (Number(age) < 18) {
-      alert("You are under age");
-    } else {
-      alert("Registration Completed");
-    }
-  }
-});
+const textNode = document.createTextNode("Hello from js");
+
+newItem.appendChild(textNode);
+
+itemListContainer.appendChild(newItem);
